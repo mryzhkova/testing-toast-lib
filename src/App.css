@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+.app {
+  width: 1200px;
+  height: 70vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  margin-bottom: 50px;
+  color: #515070;
+  font-weight: 700;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+.variant {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+label {
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #515070;
+  margin-bottom: 3px;
+} 
+select {
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #515070;
+}
+input[type="text"] {
+  padding: 6px 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #515070;
+}
+input[type="text"]::placeholder {
+  font-size: 0.9em;
+}
+.toast-color {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input[type="color"] {
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #ffbb91;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 100;
+  border: 1px solid #515070;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #515070;
+}
